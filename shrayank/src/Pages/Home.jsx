@@ -491,7 +491,7 @@ function Home({ classes }) {
               <p>
                 Timely is a Automated Time Tracking Software.We have tried
                 implementing some of the features like adding blogs ,creating a
-                dashboard and impleting settings.This was a collaborative
+                dashboard and implementing settings.This was a collaborative
                 project and was done in 3 days
               </p>
               <div className={classes.project__tech__info}>
