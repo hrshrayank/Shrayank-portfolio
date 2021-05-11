@@ -184,13 +184,7 @@ const styles = {
     backgroundColor: 'rgb(241, 173, 47)',
     borderTop: '1px solid #5a5a5a',
   },
-  commits: {
-    display: 'flex',
-    padding: '6vw 0 0 0',
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: 'rgb(241, 173, 47)',
-  },
+
   contactMe: {
     // marginTop: '80px',
     minHeight: '250px',
@@ -298,18 +292,22 @@ function Home({ classes }) {
             <img
               alt='tech-pic'
               height='100'
-              src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png'
+              width='100'
+              src={process.env.PUBLIC_URL + '/images/redux.png'}
             />
+
             <img
               alt='tech-pic'
               height='100'
-              src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png'
+              src={process.env.PUBLIC_URL + '/images/express.png'}
             />
             <img
               alt='tech-pic'
+              width='100'
               height='100'
-              src='https://img.favpng.com/20/4/0/node-js-javascript-react-mean-angularjs-png-favpng-9jx9sihXGEqtr5xCmpXZtGFjQ.jpg'
+              src={process.env.PUBLIC_URL + '/images/node.png'}
             />
+
             <img
               alt='tech-pic'
               height='100'
@@ -635,19 +633,12 @@ function Home({ classes }) {
             <p>Datastructures and Algorithms</p>
           </div>
           <div className='circle small'>
-            <h2>600+</h2>
+            <h2>300+</h2>
             <p>Git Commits</p>
           </div>
         </section>
       </Fade>
 
-      <section className={classes.commits}>
-        <img
-          src={process.env.PUBLIC_URL + '/images/github.png'}
-          alt='netflix'
-          style={{ width: '80%', marginBottom: '10%' }}
-        />
-      </section>
       <Section id='contact' className={classes.contactMe}>
         <h2>Contact Me</h2>
         <div className={classes.contactBtnContainer}>

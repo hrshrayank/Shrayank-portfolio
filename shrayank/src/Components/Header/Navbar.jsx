@@ -155,7 +155,7 @@ function Navbar({ classes }) {
               >
                 <svg
                   width='20'
-                  height='15'
+                  height='20'
                   viewBox='0 0 32 25'
                   fill='#ffffff'
                   xmlns='http://www.w3.org/2000/svg'
@@ -169,7 +169,7 @@ function Navbar({ classes }) {
               >
                 <svg
                   width='20'
-                  height='18'
+                  height='15'
                   viewBox='0 0 25 25'
                   fill='#ffffff'
                   xmlns='http://www.w3.org/2000/svg'
@@ -184,8 +184,8 @@ function Navbar({ classes }) {
               >
                 <svg
                   className='svg-icon'
-                  width='25'
-                  height='22'
+                  width='20'
+                  height='17'
                   viewBox='0 0 25 25'
                   fill='#ffffff'
                   xmlns='http://www.w3.org/2000/svg'
@@ -200,7 +200,7 @@ function Navbar({ classes }) {
               >
                 <svg
                   width='20'
-                  height='20'
+                  height='17'
                   viewBox='0 0 25 25'
                   fill='#ffffff'
                   xmlns='http://www.w3.org/2000/svg'
