@@ -49,12 +49,12 @@ const styles = {
     // color: 'grey  ',
 
     '& h2': {
-      fontSize: '28px',
+      fontSize: '25px',
     },
 
     '& p': {
-      margin: '20px 0 80px',
-      fontSize: '18px',
+      margin: '20px 0 10px',
+      fontSize: '17px',
     },
   },
   project__card__content: {
@@ -65,12 +65,13 @@ const styles = {
   },
   img__container: {
     backgroundColor: 'white',
-    height: '300px',
+    width: '100%',
+    height: '250px',
     overflow: 'hidden',
     borderTopLeftRadius: '10px',
     borderTopRightRadius: '10px',
     '& img': {
-      height: '300px',
+      height: '100%',
 
       // width: '1000px',
     },
@@ -383,7 +384,7 @@ function Home({ classes }) {
                 </div>
                 <div style={{ display: 'flex' }}>
                   <button
-                    onClick={() => goTo('#')}
+                    onClick={() => goTo('https://cnn-clone-web.netlify.app/')}
                     className={classNames(classes.menuButton)}
                   >
                     Live Version
@@ -449,7 +450,7 @@ function Home({ classes }) {
                 </div>
                 <div>
                   <button
-                    onClick={() => goTo('#')}
+                    onClick={() => goTo('https://boat-clone.vercel.app/')}
                     className={classNames(classes.menuButton)}
                   >
                     Live Version
@@ -491,8 +492,8 @@ function Home({ classes }) {
               <p>
                 Timely is a Automated Time Tracking Software.We have tried
                 implementing some of the features like adding blogs ,creating a
-                dashboard and implementing settings.This was a collaborative
-                project and was done in 3 days
+                dashboard and settings.This was a collaborative project and was
+                done in 3 days
               </p>
               <div className={classes.project__tech__info}>
                 <h3>Technologies Used</h3>
